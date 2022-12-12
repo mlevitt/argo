@@ -12,6 +12,6 @@ configMapGenerator:
         name: autopilot-secret
   name: argocd-cm
 kind: Kustomization
-namespace: argocd-marks
+namespace: argocd
 resources:
 - github.com/argoproj-labs/argocd-autopilot/manifests/base?ref=v0.4.8
