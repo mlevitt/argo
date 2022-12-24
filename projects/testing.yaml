@@ -12,7 +12,7 @@ spec:
   clusterResourceWhitelist:
   - group: '*'
     kind: '*'
-  description: testing project
+  description: marks testing project
   destinations:
   - namespace: '*'
     server: '*'
